@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Font awosome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Overpass&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <!-- My css -->
+    <link rel="stylesheet" href="cascadingStyle/styleFirst.css">
+    <title>freeCodeCamp</title>
+</head>
+
+<body>
+    <!-- Navbar section -->
+    <nav class="my-nav">
+        <div class="container">
+            <div class="row row-cols-lg-3 justify-content-between align-items-center py-2">
+                <div class="col-lg-4">
+                    <form action="">
+                        <input type="search" name="search" placeholder="Search 8000+ tutorials">
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <a href="#">
+                        <p>freeCodeCamp(<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-laptop-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M2.5 2A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
+                            </svg>)</p>
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <div class="row row-cols-2 justify-content-end my-button">
+                        <div><button>Search</button></div>
+                        <div><button>Sign in</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- head section -->
+    <section>
+        <div class="container head-padding">
+            <h1 class="head-text">Learn to code — for free.</h1>
+            <p class="head-text">Build projects.</p>
+            <p class="head-text">Earn certifications.</p>
+            <p class="head-para">Since 2014, more than 40,000 freeCodeCamp.org graduates have gotten jobs at tech
+                companies
+                including:
+            </p>
+            <div class="row row-cols-lg-5 row-cols-2 justify-content-center  head-small-img">
+                <div class="col-lg-2"><img
+                        src="https://thumbs.dreamstime.com/b/microsoft-lettering-micosoft-s-campus-bellevue-washington-usa-30420980.jpg"
+                        alt=""></div>
+                <div class="col-lg-2"><img
+                        src="https://i.pinimg.com/236x/d9/99/0c/d9990cf11ece651e7a2a3ad9c0f0c4d5--wallpaper--computer-wallpaper.jpg"
+                        alt=""></div>
+                <div class="col-lg-2"><img
+                        src="https://cdn.vox-cdn.com/thumbor/Ous3VQj1sn4tvb3H13rIu8eGoZs=/0x0:2012x1341/1400x788/filters:focal(0x0:2012x1341):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg"
+                        alt=""></div>
+                <div class="col-lg-2"><img src="https://images.indianexpress.com/2021/08/Spotify.jpg" alt=""></div>
+                <div class="col"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABSlBMVEX///8AAAD8/Pz5+fkEBAT29vbQ0NCioqIdHR2Tk5P09PQ2NjZBQUGsrKyQkJCMjIyysrIqKirb29t9fX3/mQDk5OTq6ur//P8xMTH///s8PDwZGRnu7u67u7v6///T09NwcHBnZ2fAwMBSUlL7mQARERGampqAgIAjIyPxmAD///JpaWlKSkpbW1v/kwCkpKT/++P//+z/9//0//vwnQAMCBkjHyskGx8NAAkiHxlwa2Tz7+Xl5NvLzcaZn5phaWT//dz+9sfx4abw043jvm3gtVznrEDltk378NLv//HkoinxwWjVq23orFP92ovp///ryIrmlBvGl0znmAzcnTbpvXD88MPukxPxr1b02Z35yYfgnkbhyIvjngD44bn/+dLVsFvbsS3yt1f+8NntymTs2qTp7K3dvVrt2oDnpz/0u0TvrSvMrTf0tmdr1GI0AAAN60lEQVR4nO1b/VsaSRKe6WZQQRSRAQdhQCAooyAE7jO7d4gfSfCySY5oYm6jt2Zzd+5e/v9fr6o/5gM1xjV5yPnU+7hxZrqnu96q6qrqHtcwCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAI3xIYMzjnbNpifEUwzjj8AxfTluRrAewXX0yhKe8rmNEwTbOQuMc2tFbNWMxM31+GzJpFhqV7zNCYAS+dt+4zQyPeSFvTFuNr4x5HUgHg97kMmUDoTiqHMd0A6VVeMZlo9eAsokQWmlK85bdeKQoL5p58GGn1LcUjHcVkWgjVj00MEvS2LHiYKFdLpWqGCT5cPOdcdeAclrSVy0EDlkrYzoq2hbMGowgJmF2tlqrxhFKLbLp6uUjxpDKKdkIOYWg2moeFw8DMavzQbEp3FpMSYjMrFg1DSR+ZihnFmZqp0EonDC6mB17bC3NzcwtlGKDUwsbNuLChUV6exVA2kwjriVmlygM1SqFhG/5MmfXlSaQUfehiN8Tcq5VSEBl5rjGHyAGTNDbH1qpRY7NiKZ2ykSKvNholVIYQcbUSnzCioDJnhpFUfZgRV+IaxTXd2ECP8Psvxf1hmFEtRIZp+BItmpdhSxsaiVBjsuoLNyOfLBjMn7nCI+6MNc0sXiWW4KrIbN9GlWgOAevmWpPTpzmLMlwL2kD766Gucaa9JKomOdO1DB9kxEssNx95vMCV+zXk/WJ45krENDjdLPYVDBP2ClQAMRPLALNlRcydKG6ZsUkB4hEbbqX9HvA7Vw33LCSknpDG5DALn2Boi7WUWwq/BJfrhnRtxXAuJURWSF/PMFfTAyHPhbBHc2NdkjfDM9UiDJOFgGHMrGxFOqd114lB8JXMtQxjaENmFaJvwfW29DDlpctLQYeYOX8twwcNaF5J5RLxGr6A+guQ0WO3GtuLvkqLIvjGQ1OHZInFlK6EEJJhQT0vLM40/BUxI4PiQohDTA6HpudCSny0urle0y5gB+swZm6Y4alQY+wqhrHYKkRBsSh4BV9pTOpC2AJ72/OKUEmEWM0QtLJVwF+a6cZ8TDOuiXUYV/3W0WktvVA3pUC5ajUlkPZ9SZTM9oayDUjOq2qEzYChnLAlycfEW1fbENtallS1uK2F16Fa6nOgblhNJSVbKmrDSo5b1VXfnikrUawoYee5ryeQ1cKagBVV15pMylzH5ozWy3KERhzjnR4iZoeaYmYSgm55Vt3MhAq16Do0Z22d/sUSDqUxQ62qHGYBWPqKw0KE4UoRZZzRjiR2ZVZSthWE7raVIwgm3FB+mrR0dSQe83kUE342ZHhSU2/JPraarBEmP1tER08FUl29DmNgId0UF+EwZEOeiZca69sWFzVIcVZOsygynGa4KF7PqLukVFAlxJBzO15NLa4XuWS4pjRjRVLYujKFGY+MtyhbjRXJo8ZZwFDKkVM9l69jiEtUN9nSLYJ5La4ULHpczVBupYsb8m5NvqkiZEGQsmTu0060qRmGnMWoas9bkP30iigpBaxJQ63m1O4Pb6qy+tzQDANE1+F84L/WAzOyYmXhh625TDy1sBm7iqHUOU9G5lERUqxDUamKwtESLrHke2lgwaJ63axZsp7TIbasdLPgz+ZnixiyhZ+VT9sQUljAkK2akdTJDAvL6lJlSZeUVzCULsCSIa/yg/C8qj45sIkvzq+GR0n6NTBwWtZxtKyeVfzRJWZCHqOuV0VBbhiFm2w4F2I0wRCXXy5chl3N0AgxXLhsQ+EdKaWjIIcHDDkr6WSY0pF1LZIBDRlPTMyiPtsllQJuZJi6niHW5PhooiK5yobaS+euZGhvXR4lZEN7VaXTFlfx1ahFGDKf4eJlhtH1cYmh+WmGMhSjbLPzrbUH19uQX29DJrJ3TNa+ydqmXoeSISZaSSeI45cYGtczNO7EUFdtMbNVyiVY8TcytApqlI3tjOVnC58hSKysq6cG2fSWZpLhXMBw40sw1DuLBoPag1+dLW5kaDSUiWpFsUGfYIhqlA5cCUXDtcjoTFcN4XX4JRiW1dQyyYVtyG7BMKHC+UZRmkyZZ0XWa8wSa9TE5BkqAXRwjSuGOpaWgusvwXBOMazKW1063ZJhWXWsKGFVPaaqNpVYINIoMnKbq71SS6MjevmWNlz5NEO901EBQO9u12/HMKVyREoR2NACCoJq4wGLtLK8OFO1mdwEBTWhhFLLUvF2DK0bGOpCQxUPuq7YEod3n81wTjmcZOib1CyKcmnJjGJ+LieKnCU9l4ClFojYPn1BhmoBmVUmcr9fkthYWX02w4apt8PiKHJNj5LG8420eRnLwB0Woh4eXxLdwNDVWzK82UulbC3UKm/5BYkoAW/hpfK9WXGEFjrWQU+4XDGJXbh2kZiMcno7LCr5L8lQygmqWy7b1VaoKMHq/LMZxrXk83E7Ez6TqkAK0vVnQBCnQ2u3NMV4ppRU+UbK9gUZhk6QHvgnMEKX1i0Y6mwhR1E6EwJnsMKORY/hJENmBGkyeK62ZtcztBpri0V2C4bGfGh2mGFlKagAbpXxw4LCU+38VrCHMH/3+z/8UV8vi8JtO3IEidMXWfis7QqGONqWdRuGGTOMZEbFwdKt1iG3asEY4iBHHv8so7wo05/+3PjezhUffffd93/564ZmyCOagReTGfUp4FqGXFi6fAuG3KhumLoqNjdzspxYLUfyYVkolitXVPkrssc3iqGD8xUIhxn01oYYZcGspR95juf1EJ7nPUrXxJELDMrTs2bgxBX/nFMzVCdKwQ6YiwNGWyp4FT/sWBM1DX8wwZgbuXU1wVqV4zechlkQMzFmS90lleuo6F6ValbFQUUezTCeVpu4wjbsqTkrC0Xi+UEiw5nbc10XfgGMfB42U+qvKCBB+efFtbj/LYdVY+HBtTbxBBCnnYGX8QykJb5O4ZFJ6FyGo67LIYZYQVnlUlp8EuNCOFue3YDUCSuRSFjqOxkMZoEGErLm4kYCbqwEV6dpDL+spUvxnPhrJVBUwsaHmB/hxzUcr9vpdAaDjmfkuf5sKGbn1ZnF9UbJZsHXKngbprL8ozq4xLnFPHYpY1ioODk3QymtMCHLSoTPh5g+pjH8T6LiyMV1UOfQ6DLm+MeBXPUz9Bc8Jr/WiTF8A4gzU/kZDhtclzmDneHu3v7+wcHjvd3hwDFcNenEt1kWXPr/qt+h7uLcU3+QlRoMfTLEidnNfxDmOk8GT928Azxdx7mp9yeAI3iD4eGoWW9n6/Vstt5sHnbdnpO/07B3B3v/t2c/nD3P5zFAPL/DQMClMzwfZ9sAxbD/qpOfPkNv8OJl/XwHHQyC3x0Gcnve8d9fNvu/Hjx+vL8/Gjfr9earAfO8aTN0vMHbZn18NOz0XM7v8Hc5zHG6T453dgaDLkSawfC8mc1eAMOp29Dt9Tq743a7eXjahQD/2yGCVe+56+YfAnrOSbOdfdZh0/fSfJ67T4cH4FOv35wM7kTRcJAj5Ir3XS/vnTSz30akAe+CeNrZG0EEfH3x9tgDG3DPgcjv5PN5F0zM8ghHyOko9OA/D3oxvMFmuPAcyDpG9/jtm3/8OPCc3Wb73SnEV8eYNkOJs12I8vVs/eXhyVkXyxIReRyD5ZkswjRD7AyPBW1RuUCOgI5Ojz3MO92d4d5BM9v/58BjR/Xs6P2UWYXBveP9cb3ebzabo73TThcMAg4G5nn40HFkDWYYgTWEWcFwgmH3aa8HxZrXgWQIK7r+7qchdzujdv2oO0VGkwAjdXYvmpDI6u3265fnu8edp/AYaLqKDd5phphYBITLAnuv+/7054NxE7Phqxc7zkP3tN/un94l+3xpdD3wtuO3r1+3s80+EG2Ozg8/HJ91wEOfy30CmNJwFEVYnWA1YUEg23nyYfd8NJZZfnx+yuGhc1Svnz/6lhh6Hlan3X/9u1/HYgSEzbbfjQ4OX5w+QXaG63U9JwDWsJ7X7Q6Ohyc//jJ612/WwXzZ5ruD/+x4bq/bffJrdvyBfUsMYaMDgvN893T/ZV2g2cfiC4rL8ej8h5Ph2fsQRa8zOD7+8OPR+cVYxCekh31HexCLIawa+dN37V+6vW8iiEYBS6oz3B/1sXjut+vosFlkKdF/9ytiDICQVBfcsA9YvJ1t9y9ePPF64MsQfjtvmj9hJThtPpeAOa3XPTt9e9FH22RFBQ3eJ66EPfv9PlJqiyd97CWa6xicdjoMEyQG5vejVyceLMdpE7oEp+O5zyGyeE9O9sdNtA0IL8nVNU1EVuyNkJ8KLxd7wzPMoqIwgCzy3X8/QLlwp0r+68DpOjKFo7P+/Hj0uq58VDFsi72R2B0ha7iq98fjZ4cnOx2ZNJmIthCFdryH4BD5aRO6jJ4rqzFIjyzfOT45hDBZl4FEclSWRLb4bHyx/wLrA9zKY0LBsGvgdhy9vZv/Bhm6hiw0HcweYIrO2c7J0eEF7Pb60iel8WBBjkfPnu3tDs86jjx2kjFWlnZQIDyEEhzMOm0+V8KRp2R59FjI9mjUzvFwuHv08eMbgY8fPx7tngyPB6K0c3tPIT06QiV+VYev9/JT31TcFuIMbdDBmlVK/n8m/00QTigrUe2T94whrlFxYOjqjcY9hnOP/ycd1zXup38KOJqba9xXJ3X09vDeL0MCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCDcF/wP4B93eWsYeXIAAAAASUVORK5CYII="
+                        alt=""></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 text-center get-start-button"><a class="d-block py-2" href="#" role="button">Get
+                        Started (it's Free).</a></div>
+            </div>
+            <div class="row my-5 justify-content-center">
+                <div class="col-9"><img class="w-100" src="images/freecodeCampStudent.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <!-- About free code camp -->
+    <section>
+        <div class="container">
+            <h1 class="text-center my-4">Here is what our alumni say about freeCodeCamp:</h1>
+            <div class="row row-cols-lg-2 about-alumini my-4">
+                <div class="col-lg-4"><img class="w-100" src="images/Shawn.png" alt=""></div>
+                <div class="col-lg-8">
+                    <p class="text-center display-6">Shawn Wang in Singapore</p>
+                    <p class="text-center display-6">Software Engineer at Amazon</p>
+                    <p class="rewiew">"It's scary to change careers. I only gained confidence that I could code by
+                        working through the
+                        hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a
+                        Software Engineer. freeCodeCamp <strong>changed my life.</strong>"</p>
+                </div>
+            </div>
+            <div class="row row-cols-lg-2 about-alumini my-5">
+                <div class="col-lg-4"><img class="w-100" src="images/Sarah.png" alt=""></div>
+                <div class="col-lg-8">
+                    <p class="text-center display-6">Shawn Wang in Singapore</p>
+                    <p class="text-center display-6">Software Engineer at Amazon</p>
+                    <p class="rewiew">"It's scary to change careers. I only gained confidence that I could code by
+                        working through the
+                        hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a
+                        Software Engineer. freeCodeCamp <strong>changed my life.</strong>"</p>
+                </div>
+            </div>
+            <div class="row row-cols-lg-2 about-alumini my-5">
+                <div class="col-lg-4"><img class="w-100" src="images/Emma.png" alt=""></div>
+                <div class="col-lg-8">
+                    <p class="text-center display-6">Shawn Wang in Singapore</p>
+                    <p class="text-center display-6">Software Engineer at Amazon</p>
+                    <p class="rewiew">"It's scary to change careers. I only gained confidence that I could code by
+                        working through the
+                        hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a
+                        Software Engineer. freeCodeCamp <strong>changed my life.</strong>"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Table of contents -->
+    <section>
+        <div class="container">
+            <div class="row row-cols-lg-1 align-items-center justify-content-center my-3">
+                <a href="#" class="col-lg-8 d-block table-content py-3">
+                    <div class="row row-cols-3 align-items-center justify-content-center">
+                        <div class="col-2"><img src="images/devices_black_24dp.svg" class="t-1s-img" alt=""></div>
+                        <div class="col-8">Responsive Web Design</div>
+                        <div class="col-2"><img class="d-block t-2n-img" src="images/double_arrow_black_24dp.svg"
+                                alt=""></div>
+                    </div>
+                </a>
+            </div>
+            <div class="row row-cols-lg-1 align-items-center justify-content-center my-3">
+                <a href="#" class="col-lg-8 d-block table-content py-3">
+                    <div class="row row-cols-3 align-items-center justify-content-center">
+                        <div class="col-2"><img src="images/devices_black_24dp.svg" class="t-1s-img" alt=""></div>
+                        <div class="col-8">Responsive Web Design</div>
+                        <div class="col-2"><img class="d-block t-2n-img" src="images/double_arrow_black_24dp.svg"
+                                alt=""></div>
+                    </div>
+                </a>
+            </div>
+            <div class="row row-cols-lg-1 align-items-center justify-content-center my-3">
+                <a href="#" class="col-lg-8 d-block table-content py-3">
+                    <div class="row row-cols-3 align-items-center justify-content-center">
+                        <div class="col-2"><img src="images/devices_black_24dp.svg" class="t-1s-img" alt=""></div>
+                        <div class="col-8">Responsive Web Design</div>
+                        <div class="col-2"><img class="d-block t-2n-img" src="images/double_arrow_black_24dp.svg"
+                                alt=""></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row justify-content-center mx-0 my-5">
+            <div class="col-lg-4 text-center get-start-button"><a class="d-block py-2" href="#" role="button">Get
+                    Started (it's Free).</a></div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <section id="footer">
+        <div class="container">
+            <div class="row row-cols-lg-2">
+                <div class="col-auto">
+                    <p>freeCodeCamp is a donor-supported tax-exempt 501(c)(3) nonprofit organization (United States
+                        Federal Tax Identification Number: 82-0779546)</p>
+                    <p>Our mission: to help people learn to code for free. We accomplish this by creating thousands of
+                        videos, articles, and interactive coding lessons - all freely available to the public. We also
+                        have thousands of freeCodeCamp study groups around the world.</p>
+                    <p>Donations to freeCodeCamp go toward our education initiatives, and help pay for servers,
+                        services, and staff.</p>
+                    <div class="deductable">You can <a href="#">make a tax-deductible donation here.</a></div>
+                </div>
+                <div class="col">
+                    <p class="text-center">Tranding Guides</p>
+                    <div class="row row-cols-md-3 row-cols-2">
+                        <ul>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+
+                        </ul>
+                        <ul>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+
+                        </ul>
+                        <ul>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+                            <li><a href="#">Big O Notation</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-auto justify-content-center footer-last">
+                <div><a href="#">About</a></div>
+                    <div><a href="#">Alumni Network</a></div>
+                    <div><a href="#">Open Source</a></div>
+                    <div><a href="#">Shop</a></div>
+                    <div><a href="#">Support</a></div>
+                    <div><a href="#">Sponsors</a></div>
+                    <div><a href="#">Academic Honesty</a></div>
+                    <div><a href="#">Code of Conduct</a></div>
+                    <div><a href="#"> Privacy Policy</a></div>
+                    <div><a href="#">Terms of Service</a></div>
+                    <div><a href="#">Copyright Policy</a></div>    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
